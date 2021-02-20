@@ -5,3 +5,5 @@ This is a clone for the popular web platform. It makes use of React, Redux, CSS,
 To use the code properly you must register for a Firebase account.
 
 The first steps are: npm install, npm start and afterwards modify the app as you see fit.
+
+The app is up and running on: https://linkedin-tutorial.web.app/
