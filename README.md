@@ -19,10 +19,10 @@ For backend purposes Firebase is the favoured technology.
 
 ## Available scripts
 
-"npm start"
+### "npm start"
 
-"npm build"
+### "npm build"
 
-"npm test"
+### "npm test"
 
-"npm eject"
+### "npm eject"
