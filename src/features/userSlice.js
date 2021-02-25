@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+//this file handles the exports for the login and logout from firebase
+
 export const userSlice = createSlice({
   name: "user",
   initialState: {

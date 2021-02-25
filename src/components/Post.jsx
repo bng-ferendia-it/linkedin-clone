@@ -7,6 +7,8 @@ import ChatOutlinedIcon from "@material-ui/icons/ChatOutlined";
 import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
 import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 
+// this component renders the existing posts from the db
+
 const Post = forwardRef(({ name, description, message, photoUrl },ref) => {
   return (
     <div ref={ref} className="post">

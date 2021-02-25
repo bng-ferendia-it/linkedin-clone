@@ -13,6 +13,8 @@ import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
 import FlipMove from "react-flip-move";
 
+//the Feed component handles sending requests for new posts by the logged in user and also renders the posts that exist in the db
+
 function Feed() {
   const user = useSelector(selectUser);
   const [posts, setPosts] = useState([]);

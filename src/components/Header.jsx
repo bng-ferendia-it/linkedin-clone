@@ -12,6 +12,8 @@ import { auth } from "./firebase";
 import { useDispatch } from "react-redux";
 import { logout } from "../features/userSlice";
 
+// the Header handles posibilities for a search bar, page navigation and logout from the server
+
 function Header() {
   const dispatch = useDispatch();
   const logOutOfApp = () => {

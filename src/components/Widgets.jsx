@@ -4,6 +4,9 @@ import InfoIcon from "@material-ui/icons/Info";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 
 function Widgets() {
+
+  // this component handles the news headlines on the right side of the Feed
+
   const newsArticle = (heading, subtitle) => (
     <div className="widgets__article">
       <div className="widgets__articleLeft">
